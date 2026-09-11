@@ -1,0 +1,23 @@
+JOPUJA LIVE CONNECT v2.1.0 — CLOUDFLARE ONE-CLICK EDITION
+BY JOPUJA FOUNDER | Credit Jopuja Digital™
+
+INSTALL TANPA NODE.JS DI HP/PC:
+1. Extract ZIP.
+2. Upload isi folder ke repository GitHub/GitLab.
+3. Cloudflare > Workers & Pages > Create application > Import repository.
+4. Pilih repository.
+5. Build command: kosong.
+6. Deploy command: npx wrangler deploy
+7. Deploy.
+8. Cloudflare auto-provision D1, R2, Durable Objects dan Cron.
+9. Buka URL *.workers.dev.
+10. /install otomatis muncul.
+11. Buat Super Admin.
+12. Admin > Settings > masukkan Bot Telegram autentikasi > Simpan & Pasang Webhook.
+13. Test register + pairing Telegram + OTP.
+14. User tambah domain > verify > tambah bot live chat > mapping domain > pasang widget.
+
+TIDAK ADA APP_SECRET MANUAL.
+Security Vault membuat master key otomatis di Durable Object storage.
+
+Lihat INSTALL-NO-NODE.md untuk panduan lengkap.

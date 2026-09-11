@@ -1,0 +1,23 @@
+JOPUJA LIVE CONNECT Cloudflare One-Click v2.1.0
+STATIC / CORE TEST REPORT
+
+[PASS] JavaScript syntax: all src/*.js
+[PASS] JavaScript syntax: public/assets/app.js
+[PASS] JavaScript syntax: public/widget.js
+[PASS] Worker module imports in Node parser
+[PASS] D1 schema: 42 CREATE statements executable in SQLite compatibility test
+[PASS] Bot-to-domain UNIQUE isolation constraint
+[PASS] Security Vault AES-GCM seal/unseal
+[PASS] Security Vault persistent keyed digest
+[PASS] PBKDF2 hash/verify
+[PASS] No APP_SECRET runtime dependency
+[PASS] package.json valid JSON
+
+Not possible to live-test without the owner's Cloudflare/Telegram credentials:
+- real Cloudflare provisioning/deployment
+- real Telegram getMe/setWebhook/getWebhookInfo
+- real custom-domain DNS
+- real R2 upload through production Worker
+- production WebSocket path through Cloudflare network
+
+Use Diagnostics after deploy for environment/runtime checks.

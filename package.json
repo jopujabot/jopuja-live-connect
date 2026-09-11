@@ -1,0 +1,14 @@
+{
+  "name": "jopuja-live-connect-cloudflare-oneclick",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "description": "JOPUJA LIVE CONNECT - Cloudflare one-click edition by JOPUJA FOUNDER / Jopuja Digital™",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "check": "node --check src/index.js && node --check src/db.js && node --check src/auth.js && node --check src/auth_crypto.js && node --check src/crypto.js && node --check src/telegram.js && node --check src/realtime.js && node --check public/assets/app.js && node --check public/widget.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}
